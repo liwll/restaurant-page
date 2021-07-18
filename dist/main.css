@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(195, 82, 34);
+    margin: 0px;
+}
+
+.homepage {
+    font-family: 'East Sea Dokdo', cursive;
+    overflow: hidden;
+    max-height: 100vh;
+}
+
+.header-mask {
+    float: right;
+    z-index: 0;
+    height: 8%;
+    background-color: #7f595c;
+}
+
+.header {
+    position: absolute;
+    color: rgb(142 183 44);
+    background-color: rgb(34, 82, 117);
+    width: 100%;
+    height: 8%;
+    border-radius: 10px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+#header-title{
+    padding: 10px;
+    font-size: 3.5em;
+    text-shadow: 2px 2px #7d6c2e;
+}
+
+.background {
+    margin-top: 3.5%;
+    padding-top: 5%;
+    background-image: url("./imgs/bar_edited.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.tabs {
+    font-size: 2em;
+}
+
+.footer {
+    bottom: 0;
+    position: absolute;
+    background-color: rgb(69, 85, 73);
+    color: rgb(142 183 44);
+    width: 100%;
+    border-top: 3px solid black;
+    text-align: center;
+}
