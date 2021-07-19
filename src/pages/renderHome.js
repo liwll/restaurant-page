@@ -1,6 +1,3 @@
-import renderHeader from '../display/renderHeader.js'
-import renderFooter from '../display/renderFooter.js'
-
 const renderHome = () => {
     const content = document.querySelector('#content');
     const homePage = document.createElement('div');
