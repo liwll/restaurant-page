@@ -1,5 +1,9 @@
-import './display/clearContent.js'
-import renderHeader from './display/renderHeader.js'
+import clearContent from './display/clearContent'
+import renderHeader from './display/renderHeader'
+import renderFooter from './display/renderFooter'
+import renderHome from './pages/renderHome'
 
 renderHeader();
-console.log('hey there');
+renderFooter();
+renderHome();
+

@@ -4,3 +4,5 @@ const clearContent = () => {
         content.removeChild(content.firstChild);
     }
 }
+
+export default clearContent;
