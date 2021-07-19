@@ -1,5 +1,5 @@
 body {
-    font-family: 'East Sea Dokdo', cursive;
+    font-family: 'Merriweather', serif;
     margin: 0px;
 }
 
@@ -11,8 +11,8 @@ body {
 .header {
     position: absolute;
     top: 0;
-    color: rgb(53, 192, 0);
-    background-color: rgb(34, 82, 117);
+    color: rgb(129, 209, 233);
+    background-color: white;
     width: 100%;
     text-align: center;
     word-wrap: break-word;
@@ -21,13 +21,18 @@ body {
 #header-title{
     padding: 3%;
     font-size: 2em;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
 }
 
+.tabs {
+    font-size: 1.5em;
+}
+
+
 .background {
-    margin-top: 3.5%;
+    margin-top: -7.25%;
     padding-top: 5%;
-    background-image: url("./imgs/bar_edited.png");
+    background-image: url("./imgs/baratie_3d.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,16 +41,14 @@ body {
     max-width: 100%;
 }
 
-.tabs {
-    font-size: 2em;
-}
-
 .footer {
+    font-family: 'Montserrat', sans-serif;
     bottom: 0;
     position: absolute;
-    background-color: rgb(69, 85, 73);
-    color: rgb(53, 192, 0);
+    background-color: rgb(76, 83, 151);
+    color: white;
+    min-height: 6%;
     width: 100%;
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
 }
