@@ -6,4 +6,3 @@ import renderAbout from './pages/renderAbout'
 
 renderHeader();
 renderFooter();
-renderAbout();
