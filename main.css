@@ -9,7 +9,6 @@ body {
 }
 
 .header {
-    font-family: 'Merriweather', serif;
     position: absolute;
     top: 0;
     color: rgb(129, 209, 233);
@@ -20,6 +19,7 @@ body {
 }
 
 #header-title{
+    font-family: 'Merriweather', serif;
     padding: 3%;
     font-size: 2em;
     text-shadow: 1px 1px black;
@@ -43,12 +43,9 @@ body {
 }
 
 .footer {
-    bottom: 0;
-    position: absolute;
     background-color: rgb(76, 83, 151);
     color: white;
     min-height: 6%;
-    width: 100%;
     font-size: 1em;
     text-align: center;
 }
@@ -58,7 +55,7 @@ body {
     position: absolute;
     top: 0;
     bottom: 0;
-    background-color: rgb(254, 210, 155);
+    background-color: rgb(248, 247, 254);
     font-size: 90%;
 }
 .description {
@@ -76,5 +73,37 @@ body {
 #img-sanji {
     display: block;
     margin: 20px auto;
-    width: 15%;
+    width: 13%;
+}
+
+/* Menu */
+.menu {
+    margin-top: 11vh;
+    text-align: center;
+}
+
+.quick-nav {
+    margin-bottom: 2%;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    color: rgb(129, 209, 233);
+    font-size: 2em;
+}
+
+.lunch-dinner, .dessert, .drinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2% auto;
+    width: 80%;
+}
+
+.menu-item {
+    flex: 0 0 calc(23.5% - 0px);
+    border: 1px solid rgb(211, 171, 113);
+    border-radius: 3%;
+    padding: 10px;
+    margin: 2%
 }
