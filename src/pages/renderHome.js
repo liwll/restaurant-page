@@ -1,7 +1,7 @@
 const renderHome = () => {
     const content = document.querySelector('#content');
     const homePage = document.createElement('div');
-    homePage.classList.add('homepage');
+    homePage.classList.add('home');
     const background = document.createElement('div');
     background.classList.add('background');
     homePage.appendChild(background);

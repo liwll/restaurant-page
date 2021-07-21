@@ -2,25 +2,22 @@ const renderAbout = () => {
     const content = document.querySelector('#content');
     const aboutPage = document.createElement('div');
     aboutPage.classList.add('about');
-
-
-    const img1 = document.createElement('img');
-    img1.setAttribute('id', 'img-indoors');
-    img1.setAttribute('src', './imgs/baratie.jpg');
-    img1.setAttribute('alt', 'Baratie Indoors');
-
-    const description = document.createElement('div')
-    description.classList.add('description');
-    description.textContent = "The Baratie is owned and headed by Zeff, who founded it 12 years ago with the help of a 9-year-old Sanji. After its founding, Zeff assumed the position of head chef, with Sanji becoming the young sous chef.The Baratie staff is noted for being a staff of outcasts, exiles and pirate types. Its owner is a renowned former pirate captain, and Sanji himself came to help co-found the restaurant after being exiled from his family."
-
-    const img2 = document.createElement('img');
-    img2.setAttribute('id', 'img-sanji');
-    img2.setAttribute('src', './imgs/sanji_zeff.png');
-    img2.setAttribute('alt', 'Sanji');
-
-    aboutPage.appendChild(img1);
-    aboutPage.appendChild(description);
-    aboutPage.appendChild(img2);
+    aboutPage.innerHTML = `
+        <div class="about">
+        <div class="heading">
+            <h1>Enjoy the <span style="color: green">best food</span> in all of the <span style="color: #3c2fc5">Grand Line</span>...</h1>
+        </div>
+            <img id="img-indoors" src="./imgs/baratie.jpg" alt="">
+        <div class="heading">
+            <h1>Sourcing ingredients from the legendary 
+                <span style="color: #003daf">All Blue Sea</span>, and backed by the 
+                <span style="color: #890304">Straw Hat Pirates</span>, 
+                <span style="color: rgb(129, 209, 233);">Restaraunt Baratie's</span> 
+                food is enjoyed by all!</h1>
+        </div>
+            <img id="img-crew" src="./imgs/baratie_eating.jpg" alt="">
+        </div>
+    `
     content.appendChild(aboutPage);
     console.log("about rendered");
 }

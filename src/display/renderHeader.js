@@ -1,9 +1,9 @@
 const renderHeader = () => {
-    const body = document.querySelector('body');
+    const content = document.querySelector('#content');
     const header = document.createElement('header');
-    header.classList.add('header');
-    header.innerHTML = '<span class="tabs">Menu <span id="header-title">BARATIE</span> About</span>'
-    body.appendChild(header);
+    header.setAttribute('id', 'header');
+    header.innerHTML = '<span class="tabs"><span id="menu">Menu </span><span id="home">BARATIE</span><span id="about"> About</span></span>'
+    content.appendChild(header);
     console.log("header rendered");
 }
 
