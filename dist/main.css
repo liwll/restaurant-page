@@ -4,12 +4,13 @@ body {
 }
 
 .home {
+    margin-top: -2%;
     overflow: hidden;
     max-height: 100vh;
 }
 
 #header {
-    margin-bottom: 0px;
+    margin-bottom: 2%;
     color: rgb(129, 209, 233);
     background-color: rgb(211, 171, 113);
     width: 100%;
@@ -62,10 +63,6 @@ ion-icon {
 }
 
 /* About Page */
-.about {
-    margin-top: 2%;
-}
-
 .heading {
     text-align: center;
     width: 60%;
@@ -87,7 +84,6 @@ ion-icon {
 
 /* Menu */
 .menu {
-    margin-top: 2%;
     text-align: center;
 }
 
